@@ -6,18 +6,17 @@
 
 # 安装
 ```
-sudo ./install.sh 本机ip地址
+sudo ./install.sh
 ```
-例如`sudo ./install.sh  192.168.2.115`
 
 # 使用
 
 ```
-down 文件名
+down 文件
 ```
 例如运行`down  README.md`后，会输出一个基于本机ip地址的下载链接，复制到浏览器里即可下载文件
 ```
-down 文件夹名称
+down 文件夹
 ```
 如果是文件夹，则会打包成zip压缩文件
 
